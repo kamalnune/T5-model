@@ -1,0 +1,51 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and local editor settings
+.env
+.env.*
+.vscode/
+.idea/
+
+# Testing and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Runtime and generated application data
+logs/
+data/output/
+
+# Hugging Face and Transformers model caches
+.cache/
+cache/
+hf_cache/
+huggingface_cache/
+transformers_cache/
+torch_cache/
+models--*/
+
+# Common Hugging Face cache locations
+.huggingface/
+**/.cache/huggingface/
+**/.cache/huggingface/hub/
+**/.cache/torch/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# OS-generated files
+.DS_Store
+Thumbs.db
